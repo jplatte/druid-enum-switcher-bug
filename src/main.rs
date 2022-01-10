@@ -5,6 +5,7 @@ use druid::{
 use druid_widget_nursery::{enum_switcher::Switcher, prism::Prism, WidgetExt as _};
 
 fn main() -> Result<(), PlatformError> {
+    tracing_subscriber::fmt::init();
     AppLauncher::with_window(WindowDesc::new(ui())).launch(AppState::A)
 }
 

@@ -4,5 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-druid = { git = "https://github.com/linebender/druid", rev = "0a82b127eac325c9c721364a5d81f1bfd931cb13" }
-druid-widget-nursery = { git = "https://github.com/linebender/druid-widget-nursery", rev = "65157a8aa82ca87663dcbd936a8a3eef27729427" }
+druid = { git = "https://github.com/linebender/druid", rev = "2f5beb8faba648c170a485b8d6a00d0d991a1737" }
+druid-widget-nursery = { git = "https://github.com/linebender/druid-widget-nursery", rev = "865a22aafad84a403169b55c66a8ed78de5be082" }
+tracing-subscriber = "0.3.5"
